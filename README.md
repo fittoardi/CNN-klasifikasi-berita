@@ -9,7 +9,7 @@ Proyek ini mengimplementasikan Convolutional Neural Network (CNN) untuk klasifik
 ### 2. **Program Python Lengkap**
 - **Preprocessing**: Lowercase, remove special characters, tokenization, stopwords removal
 - **Data Generation**: Membuat 30 sampel data (15 hoax, 15 real)
-- **dataset berita**:**hoaks**= "Vaksin COVID-19 mengandung microchip untuk mengontrol manusia",
+- **dataset berita**:**HOAKS**= "Vaksin COVID-19 mengandung microchip untuk mengontrol manusia",
                                 "Pemerintah menyembunyikan fakta bahwa bumi ini datar",
                                 "Minum air putih hangat bisa menyembuhkan kanker dalam seminggu",
                                 "Gelombang 5G menyebabkan virus corona menyebar lebih cepat",
@@ -24,7 +24,9 @@ Proyek ini mengimplementasikan Convolutional Neural Network (CNN) untuk klasifik
                                 "Makanan organik 100% bisa menyembuhkan autisme pada anak",
                                 "Chemtrail dari pesawat adalah upaya pemerintah meracuni udara",
                                 "Manusia bisa hidup tanpa makan selama berbulan-bulan dengan meditasi"
-                    **real** =  "Menteri Kesehatan mengumumkan program vaksinasi nasional tahap kedua",
+
+  
+                    **REAL** =  "Menteri Kesehatan mengumumkan program vaksinasi nasional tahap kedua",
                                 "Badan Meteorologi melaporkan cuaca ekstrem di berbagai daerah",
                                 "Penelitian menunjukkan efektivitas masker dalam mencegah penularan virus",
                                 "Pemerintah alokasikan dana bantuan untuk UMKM terdampak pandemi",
@@ -39,6 +41,7 @@ Proyek ini mengimplementasikan Convolutional Neural Network (CNN) untuk klasifik
                                 "Perusahaan farmasi uji klinis obat baru untuk pengobatan kanker",
                                 "Pemerintah bangun infrastruktur digital untuk daerah terpencil",
                                 "Peneliti temukan spesies baru di kedalaman laut Indonesia"
+  
 - **Model Architecture**: CNN dengan Embedding → Conv1D → MaxPooling → Dense → Output
 - **Training**: Dengan early stopping dan learning rate reduction
 - **Evaluation**: Accuracy, classification report, confusion matrix
