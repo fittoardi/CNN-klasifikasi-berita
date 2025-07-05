@@ -9,7 +9,8 @@ Proyek ini mengimplementasikan Convolutional Neural Network (CNN) untuk klasifik
 ### 2. **Program Python Lengkap**
 - **Preprocessing**: Lowercase, remove special characters, tokenization, stopwords removal
 - **Data Generation**: Membuat 30 sampel data (15 hoax, 15 real)
-- **dataset berita**:**HOAKS**= "Vaksin COVID-19 mengandung microchip untuk mengontrol manusia",
+- **dataset berita**:
+-                    **HOAKS**= "Vaksin COVID-19 mengandung microchip untuk mengontrol manusia",
                                 "Pemerintah menyembunyikan fakta bahwa bumi ini datar",
                                 "Minum air putih hangat bisa menyembuhkan kanker dalam seminggu",
                                 "Gelombang 5G menyebabkan virus corona menyebar lebih cepat",
@@ -47,7 +48,8 @@ Proyek ini mengimplementasikan Convolutional Neural Network (CNN) untuk klasifik
 - **Evaluation**: Accuracy, classification report, confusion matrix
 
 COODE ATAU PROGRAM PYTHON
-```# CNN untuk Klasifikasi Berita Hoaks atau Asli
+```
+# CNN untuk Klasifikasi Berita Hoaks atau Asli
 # Implementasi lengkap dengan preprocessing, training, validasi, dan testing
 
 import pandas as pd
